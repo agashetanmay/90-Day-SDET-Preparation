@@ -43,6 +43,8 @@ public class githubAccountAutomation {
        
        searchTextBox.sendKeys("albania");
        
+       username.getDomAttribute(null)
+       
        
 		
 

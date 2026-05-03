@@ -23,7 +23,7 @@ public class TakeScreenShot {
 		
 		File destifile = new File("screenshot.png");
 		
-		FileUtils.copyFile(Myfile, destifile);
+		FileUtils.copyFile(Myfile, destifile);  // file Utils is comming from apache .io package
 		
 
 	}

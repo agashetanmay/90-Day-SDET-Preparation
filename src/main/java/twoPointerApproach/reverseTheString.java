@@ -6,9 +6,7 @@ public class reverseTheString {
 	
 		String input = "Hello";
 		
-	  char ch[] = input.toCharArray();
-
-	  
+	  char ch[] = input.toCharArray();  
 	   int left =0;
 	   int right=input.length()-1;
 	   

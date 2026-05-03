@@ -22,7 +22,7 @@ public class brokenLinkcoding {
 		
 		for(WebElement link:links) {
 			
-			String urlString =   link.getAttribute("href");
+			String urlString =   link.getDomProperty("href");
 			
 			URL url = new URL(urlString);
 			

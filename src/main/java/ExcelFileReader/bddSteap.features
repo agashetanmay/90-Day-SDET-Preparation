@@ -1,0 +1,19 @@
+Scenario Outline: Validate guest form one
+  Given I load test data "<Sheet>" and "<TestCaseID>"
+  When I enter guest details
+  Then I validate form behavior
+
+Examples:
+  | Sheet    | TestCaseID |
+  | GuestData| TC_01      |
+ 
+  
+  
+Scenario Outline: Validate guest form two
+  Given I load test data "<Sheet>" and "<TestCaseID>"
+  When I enter guest details
+  Then I validate form behavior
+
+Examples:
+  | Sheet    | TestCaseID |
+  | GuestData| TC_02      |

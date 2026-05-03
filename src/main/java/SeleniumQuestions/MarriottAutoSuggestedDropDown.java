@@ -30,7 +30,7 @@ public class MarriottAutoSuggestedDropDown {
 		WebElement destinationBox = wait.until(
 				ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='input-text-Destination']")));
 
-		js.executeScript("arguments[0].scrollIntoView", destinationBox);
+		js.executeScript("arguments[0].scrollIntoView();", destinationBox);
 		Thread.sleep(1000);
 		destinationBox.click(); // destination dropdown will open in 2nd click
 		Thread.sleep(1000);
@@ -59,13 +59,3 @@ public class MarriottAutoSuggestedDropDown {
 		
 	}
 }
-				
-			
-			
-			
-			
-		
-
-	
-
-

@@ -11,7 +11,10 @@ public class RegexExtractTheText {
      
 //     Pattern pattern = Pattern.compile("[A-Za-z]+\\s+\\d{4}");
      
-     Pattern pattern = Pattern.compile("[A-Za-z]+\\s+\\d{4}");
+     Pattern pattern = Pattern.compile("[A-Za-z]+\\s+\\d{4}");  // 1. it contain character from A-Z
+                                                                // 2. Which contain space  //s
+                                                                // 3. contains 4 digit
+                                                               
      
      
     Matcher matcher = pattern.matcher(input);
